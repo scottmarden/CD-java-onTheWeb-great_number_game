@@ -39,8 +39,6 @@ public class GameCtrl extends HttpServlet {
 		HttpSession session = request.getSession();
 //		session.invalidate();
 		RequestDispatcher view = request.getRequestDispatcher("/WEB-INF/views/Game.jsp");
-		System.out.println("request.result = " + request.getAttribute("result"));
-		System.out.println("session.num = " + session.getAttribute("num"));
 		if (session.getAttribute("num") == null) {
 			Integer num = randNum();
 			session.setAttribute("num", num);

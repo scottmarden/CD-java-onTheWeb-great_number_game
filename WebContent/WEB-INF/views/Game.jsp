@@ -35,7 +35,7 @@
 	<div id="guesses">
 		<form action="game" method="get">
 			<label for="guess">Guess: </label><input type="text" name="guess"> 
-			<button type="submit">Make a guess!</button>
+			<button type="submit">Submit guess!</button>
 		</form>
 	</div>
 	</c:if>
