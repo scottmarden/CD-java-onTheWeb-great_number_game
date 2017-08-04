@@ -1,0 +1,41 @@
+body {
+	background-color: lightgreen;
+	text-align: center;
+}
+
+
+#guesses {
+	margin: 20px;
+}
+
+.incorrect{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	font-size: 110%;
+	text-align: center;
+	padding: 10px;
+	margin: 20px 50px 20px 515px;
+	
+}
+
+.correct {
+	background-color: green;
+	height: 100px;
+	width: 100px;
+	font-size: 110%;
+	text-align: center;
+	padding: 10px;
+	margin: 20px 50px 20px 515px;
+}
+
+a {
+	background-color: silver;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
